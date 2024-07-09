@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">//顶层节点
+<head>//子节点
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add(){
+            var x=1;
+            var y=8;
+            console.log(x+y);
+        }
+
+        add();
+          function leftday()
+          {
+            
+            var today=new Date();
+            var endday=new Date(today.getFullYear(),6,17,13,42,999);
+            var msPerDay=24*60*60*1000;
+            var result=(endday.getTime()-today.getTime())/msPerDay
+            console.log(result);
+          }
+
+
+          leftday();
+
+        console.log(10*Math.random());
+
+        console.log(document);
+    </script>
+</body>
+</html>
